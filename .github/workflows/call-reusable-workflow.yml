@@ -4,4 +4,4 @@ on: push
 
 jobs:
   call-workflow:
-    uses: org-name/repo-name/.github/workflows/reusable-workflow.yml@main
+    uses: bestdevopsengineer/Composite-Action/.github/workflows/reusable-workflow.yml@main
