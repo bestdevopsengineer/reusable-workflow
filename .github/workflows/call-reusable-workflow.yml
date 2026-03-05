@@ -1,0 +1,7 @@
+name: Call Reusable CI Workflow
+
+on: push
+
+jobs:
+  call-workflow:
+    uses: org-name/repo-name/.github/workflows/reusable-workflow.yml@main
