@@ -1,0 +1,12 @@
+name: "Setup Node and Install Dependencies"
+description: "Reusable composite action"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    - run: npm ci
+      shell: bash
